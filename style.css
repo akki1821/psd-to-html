@@ -18,13 +18,13 @@
     width: 100vw;
     height: 100%;
     opacity: 0;
-    transition: opacity 1s ease-in-out, filter 1s ease-in-out;
+    transition: opacity 2s ease-in-out, filter 1s ease-in-out;
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
+  
   .carousel .slide img {
     width: 100%;
     height: auto;
@@ -36,13 +36,16 @@
   
   /* Header styles */
   header {
-    background-color: #f5f5f5;
+    background-image: url("images.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 20px;
+    color: #fff;
   }
   
   header .logo {
     font-size: 24px;
-    color: #333;
+    color: #f1e9e9;
     margin-right: auto;
     margin-bottom: 10px;
   }
@@ -70,7 +73,7 @@
   }
   
   header nav ul li a {
-    color: #333;
+    color: #f2eded;
     text-decoration: none;
   }
   
@@ -88,7 +91,7 @@
   section:target {
     background-color: #eee;
   }
-
+  
   .history-section {
     background-image: url("history.jpg");
     background-size: cover;
@@ -98,8 +101,28 @@
     padding: 40px;
     box-sizing: border-box;
     color: #131212;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
   }
-
+  
+  .history-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .history-section h2 {
+    
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
   .team-section {
     background-image: url("team.jpg");
     background-size: cover;
@@ -110,6 +133,4 @@
     box-sizing: border-box;
     color: #fff;
   }
-  
-  
   
