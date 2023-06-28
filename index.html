@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Carousel with Internal Links</title>
+  
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Website Logo" class="logo">    <nav>
+      <ul>
+        <li><a href="#history">History</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="carousel">
+    <div class="slide active">
+      <img src="download.jpg" alt="Carousel Image 1">
+      <h3>Carousel Slide 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="slide">
+      <img src="download1.jpg" alt="Carousel Image 2">
+      <h3>Carousel Slide 2</h3>
+      <p>Nulla facilisi. Sed euismod dolor ut risus tristique blandit.</p>
+    </div>
+    <div class="slide">
+      <img src="images.jpg" alt="Carousel Image 3">
+      <h3>Carousel Slide 3</h3>
+      <p>Vestibulum feugiat, est ut finibus varius, lorem nunc vestibulum ipsum.</p>
+    </div>
+  </div>
+  
+  <section id="history"  class="history-section" >
+    <h2>History</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non turpis nec erat ultrices ullamcorper vel non nisi. Nullam auctor nulla vitae neque euismod sollicitudin. Fusce eu purus nec enim tincidunt tincidunt. Nunc sagittis dapibus lorem, id eleifend nunc cursus id. Nulla facilisi. Integer malesuada iaculis turpis, ut faucibus est pellentesque id. Vestibulum dignissim malesuada mi, sit amet vulputate erat dapibus vel. Vivamus feugiat placerat luctus. Donec tincidunt scelerisque dolor, id auctor arcu eleifend at. Sed at leo eu turpis venenatis efficitur. Quisque auctor ultricies ultricies.</p>
+    <p>Morbi nec ligula nec nisl eleifend finibus in vel libero. In fringilla consequat arcu, ut vestibulum risus tincidunt id. Sed vel sapien aliquam, dapibus quam nec, convallis ex. Ut nec eros a est ultricies tempor. Proin aliquam risus vel sapien volutpat, a fermentum dolor condimentum. Aliquam fermentum, odio sit amet facilisis dapibus, velit massa interdum sapien, ac aliquet nulla ligula vitae sem. Curabitur cursus dignissim lectus, eu volutpat lacus pretium nec. Nullam fermentum ex metus, sit amet facilisis est consectetur in. Etiam tempor aliquet lectus vitae rhoncus.</p>
+  </section>
+  
+  <section id="team"  class="team-section"  >
+    <h2>Team</h2>
+    <div class="member">
+      <img src="team-member1.jpg" alt="Team Member 1">
+      <h3>John Doe</h3>
+      <p>Position: Project Manager</p>
+    </div>
+    <div class="member">
+      <img src="team-member2.jpg" alt="Team Member 2">
+      <h3>Jane Smith</h3>
+      <p>Position: Developer</p>
+    </div>
+    <div class="member">
+      <img src="team-member3.jpg" alt="Team Member 3">
+      <h3>Mike Johnson</h3>
+      <p>Position: Designer</p>
+    </div>
+  </section>
+   
+  
+  
+  
+  <script src="carousel.js"></script>
+</body>
+</html>
